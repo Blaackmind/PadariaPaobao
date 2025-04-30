@@ -1,0 +1,224 @@
+{
+  "Produtos": [
+    {
+      "id": 1,
+      "descricao": "Pão Francês (unidade)",
+      "unidade": "un",
+      "preco_compra": 0.25,
+      "lucro": 300,
+      "estoque": 90,
+      "minimo": 100,
+      "maximo": 500,
+      "preco_venda": 1.00
+    },
+    {
+      "id": 2,
+      "descricao": "Bolo de Chocolate (fatia)",
+      "unidade": "fat",
+      "preco_compra": 1.20,
+      "lucro": 200,
+      "estoque": 55,
+      "minimo": 20,
+      "maximo": 50,
+      "preco_venda": 3.60
+    },
+    {
+      "id": 3,
+      "descricao": "Croissant",
+      "unidade": "un",
+      "preco_compra": 1.50,
+      "lucro": 250,
+      "estoque": 45,
+      "minimo": 30,
+      "maximo": 80,
+      "preco_venda": 4.00
+    },
+    {
+      "id": 4,
+      "descricao": "Pão de Queijo (unidade)",
+      "unidade": "un",
+      "preco_compra": 0.40,
+      "lucro": 275,
+      "estoque": 140,
+      "minimo": 150,
+      "maximo": 400,
+      "preco_venda": 1.50
+    },
+    {
+      "id": 5,
+      "descricao": "Torta de Frango (fatia)",
+      "unidade": "fat",
+      "preco_compra": 2.00,
+      "lucro": 180,
+      "estoque": 35,
+      "minimo": 10,
+      "maximo": 30,
+      "preco_venda": 5.60
+    },
+    {
+      "id": 6,
+      "descricao": "Sonho",
+      "unidade": "un",
+      "preco_compra": 0.80,
+      "lucro": 225,
+      "estoque": 60,
+      "minimo": 40,
+      "maximo": 100,
+      "preco_venda": 1.50
+    },
+    {
+      "id": 7,
+      "descricao": "Pão Integral (unidade)",
+      "unidade": "un",
+      "preco_compra": 0.35,
+      "lucro": 285,
+      "estoque": 500,
+      "minimo": 50,
+      "maximo": 150,
+      "preco_venda": 1.35
+    },
+    {
+      "id": 8,
+      "descricao": "Biscoito Amanteigado (100g)",
+      "unidade": "emb",
+      "preco_compra": 1.80,
+      "lucro": 220,
+      "estoque": 10,
+      "minimo": 15,
+      "maximo": 40,
+      "preco_venda": 4.00
+    },
+    {
+      "id": 9,
+      "descricao": "Pão de Forma (500g)",
+      "unidade": "emb",
+      "preco_compra": 3.50,
+      "lucro": 150,
+      "estoque": 8,
+      "minimo": 10,
+      "maximo": 30,
+      "preco_venda": 8.75
+    },
+    {
+      "id": 10,
+      "descricao": "Empada de Palmito",
+      "unidade": "un",
+      "preco_compra": 1.00,
+      "lucro": 240,
+      "estoque": 70,
+      "minimo": 20,
+      "maximo": 60,
+      "preco_venda": 3.40
+    },
+    {
+      "id": 11,
+      "descricao": "Rosca Doce",
+      "unidade": "un",
+      "preco_compra": 2.20,
+      "lucro": 190,
+      "estoque": 6,
+      "minimo": 8,
+      "maximo": 25,
+      "preco_venda": 6.38
+    },
+    {
+      "id": 12,
+      "descricao": "Baguete",
+      "unidade": "un",
+      "preco_compra": 1.80,
+      "lucro": 210,
+      "estoque": 45,
+      "minimo": 15,
+      "maximo": 40,
+      "preco_venda": 5.58
+    },
+    {
+      "id": 13,
+      "descricao": "Coxinha",
+      "unidade": "un",
+      "preco_compra": 1.20,
+      "lucro": 230,
+      "estoque": 120,
+      "minimo": 30,
+      "maximo": 100,
+      "preco_venda": 3.00
+    },
+    {
+      "id": 14,
+      "descricao": "Pão de Centeio (unidade)",
+      "unidade": "un",
+      "preco_compra": 0.45,
+      "lucro": 265,
+      "estoque": 20,
+      "minimo": 25,
+      "maximo": 70,
+      "preco_venda": 1.65
+    },
+    {
+      "id": 15,
+      "descricao": "Bolo de Cenoura (fatia)",
+      "unidade": "fat",
+      "preco_compra": 1.10,
+      "lucro": 210,
+      "estoque": 40,
+      "minimo": 15,
+      "maximo": 35,
+      "preco_venda": 3.41
+    },
+    {
+      "id": 16,
+      "descricao": "Pastel de Nata",
+      "unidade": "un",
+      "preco_compra": 1.30,
+      "lucro": 245,
+      "estoque": 5,
+      "minimo": 10,
+      "maximo": 30,
+      "preco_venda": 3.00
+    },
+    {
+      "id": 17,
+      "descricao": "Pão de Mel",
+      "unidade": "un",
+      "preco_compra": 1.60,
+      "lucro": 235,
+      "estoque": 30,
+      "minimo": 10,
+      "maximo": 25,
+      "preco_venda": 5.36
+    },
+    {
+      "id": 18,
+      "descricao": "Biscoito de Polvilho (200g)",
+      "unidade": "emb",
+      "preco_compra": 2.50,
+      "lucro": 195,
+      "estoque": 10,
+      "minimo": 12,
+      "maximo": 35,
+      "preco_venda": 7.38
+    },
+    {
+      "id": 19,
+      "descricao": "Pão de Hamburguer",
+      "unidade": "un",
+      "preco_compra": 0.70,
+      "lucro": 255,
+      "estoque": 70,
+      "minimo": 20,
+      "maximo": 60,
+      "preco_venda": 2.00
+    },
+    {
+      "id": 20,
+      "descricao": "Torta Holandesa (fatia)",
+      "unidade": "fat",
+      "preco_compra": 2.30,
+      "lucro": 185,
+      "estoque": 3,
+      "minimo": 5,
+      "maximo": 20,
+      "preco_venda": 6.56
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Pão Bão</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Padaria Pão Bão</h1>
+            <p class="subtitle">Sistema de Gestão de Produtos</p>
+        </header>
+        
+        <div class="dashboard">
+            <div class="filters">
+                <h2>Filtros:</h2>
+                <div class="radio-group">
+                    <label class="radio-option">
+                        <input type="radio" name="filter" value="all" checked>
+                        <span>Todos os produtos</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="filter" value="low">
+                        <span>Estoque baixo</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="filter" value="high">
+                        <span>Estoque alto</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="filter" value="profit">
+                        <span>Lucro incorreto</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="rapidas-stats">
+                <div class="stat-cartao">
+                    <div class="stat-valor" id="total-produtos">0</div>
+                    <div class="stat-label">Produtos</div>
+                </div>
+                <div class="stat-cartao">
+                    <div class="stat-valor" id="total-estoque">0</div>
+                    <div class="stat-label">Em estoque</div>
+                </div>
+                <div class="stat-cartao aviso">
+                    <div class="stat-valor" id="baixo-estoque">0</div>
+                    <div class="stat-label">Estoque baixo</div>
+                </div>
+                <div class="stat-cartao alert">
+                    <div class="stat-valor" id="lucro-incorreto">0</div>
+                    <div class="stat-label">Lucro incorreto</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="lista-produtos">
+            <div class="table-header">
+                <h2>Produtos</h2>
+                <div class="caixa-busca">
+                    <input type="text" id="search-input" placeholder="Buscar produto...">
+                </div>
+            </div>
+            <div class="table-container">
+                <table id="tabela-produtos">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Descrição</th>
+                            <th>Unid.</th>
+                            <th>Compra</th>
+                            <th>Lucro</th>
+                            <th>Venda</th>
+                            <th>Estoque</th>
+                            <th>Mín.</th>
+                            <th>Máx.</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="produtos-body">
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
